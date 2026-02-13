@@ -23,7 +23,7 @@ import java.awt.*;
         description = "Completes the Barrows Brothers mini-game", // A brief description of the plugin (optional, default is '')
         tags = {"combat", "mm", "barrows"}, // Tags to categorize the plugin (optional, default is '')
         authors = { "Gage" }, // Author(s) of the plugin (optional, default is "Unknown Author")
-        version = BarrowsPlugin.version, // Version of the plugin (required)
+        version = BarrowsMicroPlugin.version, // Version of the plugin (required)
         minClientVersion = "2.1.0", // Minimum client version required to run the plugin (required)
         iconUrl = "https://chsami.github.io/Microbot-Hub/BarrowsPlugin/assets/icon.png", // URL to plugin icon shown in client (optional)
         cardUrl = "https://chsami.github.io/Microbot-Hub/BarrowsPlugin/assets/card.png", // URL to plugin card image for website (optional)
@@ -31,7 +31,7 @@ import java.awt.*;
         isExternal = PluginConstants.IS_EXTERNAL // Whether the plugin is external
 )
 @Slf4j
-public class BarrowsPlugin extends Plugin  {
+public class BarrowsMicroPlugin extends Plugin  {
     public static final String version = "2.0.3";
 
     @Inject

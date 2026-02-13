@@ -13,7 +13,7 @@ import java.awt.*;
 public class BarrowsOverlay extends OverlayPanel {
 
     @Inject
-    BarrowsOverlay(BarrowsPlugin plugin)
+    BarrowsOverlay(BarrowsMicroPlugin plugin)
     {
         super(plugin);
         setPosition(OverlayPosition.TOP_LEFT);
@@ -24,7 +24,7 @@ public class BarrowsOverlay extends OverlayPanel {
         try {
             panelComponent.setPreferredSize(new Dimension(200, 300));
             panelComponent.getChildren().add(TitleComponent.builder()
-                    .text("Barrows V"+BarrowsPlugin.version)
+                    .text("Barrows V"+ BarrowsMicroPlugin.version)
                     .color(Color.GREEN)
                     .build());
 

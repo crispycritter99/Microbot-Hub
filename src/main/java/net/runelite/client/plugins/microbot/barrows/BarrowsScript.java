@@ -80,7 +80,7 @@ public class BarrowsScript extends Script {
 
 
 
-    public boolean run(BarrowsConfig config, BarrowsPlugin plugin) {
+    public boolean run(BarrowsConfig config, BarrowsMicroPlugin plugin) {
         Microbot.enableAutoRunOn = false;
         mainScheduledFuture = scheduledExecutorService.scheduleWithFixedDelay(() -> {
             try {
